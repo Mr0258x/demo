@@ -2,6 +2,7 @@ class Shape(object):
     @property 
     def area(self): 
         pass 
+
 class Rectangle(Shape): 
     def __init__(self, width=0, height=0): 
         super().__init__() 
